@@ -1,0 +1,591 @@
+@media screen and (max-width: 600px) {
+   .visit{
+       font-size:10vw;
+   }
+  }
+
+@font-face {
+    font-family: "deja";
+    src: url(C:\WINDOWS\FONTS\DEJAVUSANSMONO.TTF)
+}
+
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    font-family: "deja", sans-serif;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('./pexels-jean-van-der-meulen-1543417.jpg');
+    min-height: 900px;
+
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("./pexels-mark-broadhurst-106686.jpg");
+    min-height: 600px
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("./pexels-pixabay-53977.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-device-width: 1600px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+
+.helptext {
+    font-size: 3vw;
+    color: #e24b06;
+    font-weight: bolder;
+}
+
+#statbutt{
+   width: 30%;
+    background-color:#fbd703; 
+   margin-top: 25px; 
+   opacity: 0.7; 
+   color: black;
+   z-index: 2;
+   font-weight: bolder;
+   position: relative;
+   left: 35%;
+   border-radius: 10px;
+}
+
+/* parallax */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* spotted pic */
+.bgimg-1 {
+    background-image: url(../pics/spotted.jpg);
+    min-height: 1000px;
+
+
+
+}
+
+
+.bgimg-2 {
+    background-image: url(../pics/burrowing.jpg);
+    min-height: 500px;
+
+}
+
+
+.bgimg-3 {
+    background-image: url(../pics/winky.jpg);
+    min-height: 600px;
+
+}
+
+
+
+#midbar {
+    background-color: rgb(251, 215, 3);
+}
+
+
+
+.mod {
+    background-image: url(../pics/winky.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 1250px;
+    margin-left: 290px;
+    margin-top: 50px;
+    
+    
+   
+    z-index:3;
+   
+}
+
+.navtext {
+    color: #fbd703;
+    font-weight: bolder;
+    font-size: 32px;
+
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+
+#mission {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fbd703;
+
+    text-shadow: 1px 1px 2px darkslategray;
+}
+
+.missionstate {
+    font-size: 24px;
+    color: darkslategray;
+
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+
+
+}
+
+
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid black;
+    z-index: 9;
+    border-radius: 10px;
+}
+
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-image: url(../pics/logo.jpg);
+
+}
+
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    resize: none;
+    min-height: 200px;
+
+}
+
+/*  TEXT AREA */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* submit/login button */
+.form-container .btn {
+    background-color: #e24b06;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+
+.form-container .cancel {
+    background-color: #fbd703;
+}
+
+
+
+.saved {
+    color: #fbd703;
+    font: 64px;
+}
+
+
+
+.chatty {
+    background-color: transparent;
+    padding-bottom: 250px;
+}
+
+
+
+.give {
+    animation-name: give;
+    animation-duration: 2s;
+    font-size: 15vw;
+    text-align: center;
+    color: #fbd703;
+    opacity: 0;
+    font-weight: bold;
+    max-width: 100%;
+
+}
+
+@keyframes give {
+    0% {
+        opacity: 0.2;
+    }
+
+    10% {
+        opacity: 0.3;
+    }
+
+    20% {
+        opacity: 0.4
+    }
+
+    30% {
+        opacity: 0.5
+    }
+
+    40% {
+        opacity: 0.6
+    }
+
+    50% {
+        opacity: 0.7
+    }
+
+    60% {
+        opacity: 0.6
+    }
+
+    70% {
+        opacity: 0.5
+    }
+
+    80% {
+        opacity: 0.4
+    }
+
+    90% {
+        opacity: 0.3
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.a {
+    animation-name: a;
+    animation-duration: 3s;
+    font-size: 15vw;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    font-weight: bold;
+
+}
+
+@keyframes a {
+    0% {
+        opacity: 0.0;
+    }
+
+    10% {
+        opacity: 0.0;
+    }
+
+    20% {
+        opacity: 0.0
+    }
+
+    30% {
+        opacity: 0.0
+    }
+
+    40% {
+        opacity: 0.0
+    }
+
+    50% {
+        opacity: 0.0
+    }
+
+    55% {
+        opacity: 0.1;
+    }
+
+    60% {
+        opacity: 0.2
+    }
+
+    65% {
+        opacity: 0.3
+    }
+
+    70% {
+        opacity: 0.4
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    80% {
+        opacity: 0.6
+    }
+
+    85% {
+        opacity: 0.5;
+    }
+
+    90% {
+        opacity: 0.4;
+    }
+
+    95% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+
+}
+
+.hoot {
+    animation-name: hoot;
+    animation-duration: 6s;
+    font-size: 18vw;
+    text-align: center;
+    color: #fbd703;
+    opacity: 0;
+    font-weight: bolder;
+}
+
+@keyframes hoot {
+    0% {
+        opacity: 0.0;
+    }
+
+    5% {
+        opacity: 0.0;
+    }
+
+    10% {
+        opacity: 0.0;
+    }
+
+    15% {
+        opacity: 0.0;
+    }
+
+    20% {
+        opacity: 0.0
+    }
+
+    25% {
+        opacity: 0.0;
+    }
+
+    30% {
+        opacity: 0.0
+    }
+
+    35% {
+        opacity: 0.0;
+    }
+
+    40% {
+        opacity: 0.0
+    }
+
+    45% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 0.0
+    }
+
+    55% {
+        opacity: 0.1;
+    }
+
+    60% {
+        opacity: 0.2
+    }
+
+    65% {
+        opacity: 0.3
+    }
+
+    70% {
+        opacity: 0.4
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    80% {
+        opacity: 0.6
+    }
+
+    85% {
+        opacity: 0.5;
+    }
+
+    90% {
+        opacity: 0.4;
+    }
+
+    95% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
+
+.social {
+
+    color: darkgreen;
+    font-weight: bolder;
+    padding-top: 300px;
+    font-size: 3vw;
+    text-shadow: 2px 2px 2px black;
+
+
+}
+
+.socicon {
+    padding-right: 30px;
+}
+
+.visit {
+    color: rgba(226, 75, 6, 1);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 50px;
+    text-shadow: 2px 2px 2px darkslategray;
+
+}
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+    margin-left: 75px;
+  }
+  
+  /* .row {margin: 0 -5px;} */
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    background-color: transparent;
+   
+    color: white;
+ 
+  }
+  .card1 {
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    background-color: transparent;
+   
+    color: white;
+    
+  }
+  .card2 {
+    position: relative;
+    bottom: 150px;
+    
+    text-align: center;
+    background-color: transparent;
+   
+    color: white;
+    
+  }
+  
+  .fa {font-size:50px;}
+
+  .cardstyle{
+      font-size: 92px;
+      font-weight: bolder;
+      z-index: 10;
+      color:#e24b0d;
+      text-shadow: 1px 1px 1px white;
+      position:relative;
+      top: 5px;
+
+  }
+
+  .stats{
+      color: darkgreen;
+      font-size: 78px;
+      font-weight: bolder;
+      position: relative;
+      top: -120px;
+      text-shadow: 1px 1px 1px white;
+      
+  }
+
+  .cardpara{
+      color: #e24b0d;
+      font-size: 32px;
+      font-weight: bolder;text-shadow: 1px 1px 1px white;
+      position:relative;
+      top: 0px;
+      
+
+  }
+

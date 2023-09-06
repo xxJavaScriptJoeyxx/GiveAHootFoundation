@@ -1,0 +1,209 @@
+/* @media screen and(max-width:1000px){
+   .slide{
+        position:relative;
+        top: 50%;
+    }
+} */
+
+
+@font-face {
+    font-family: "deja";
+    src: url(C:\WINDOWS\FONTS\DEJAVUSANSMONO.TTF)
+}
+
+html,body,h1,h2,h3,h4 {font-family:"deja", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
+
+.foot{
+    height: 120px;
+    background-color:#fbd703;
+    font-family: "deja";
+}
+
+.navtext{
+    color: #fbd703;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: "deja";
+    text-shadow: 2px 2px 5px black;
+}
+
+#head{
+    color:#fbd703;
+    font-size: 72px;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bolder;
+    padding-top: 75px;
+    font-family: "deja";
+}
+
+.thanks{
+    font-size: 28px;
+    font-family: "deja";
+    color:black;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    
+
+}
+
+.cards{
+    background-color:#fbd703;
+    /* opacity: 0.8; */
+    color: black;
+    font-family: "deja";
+    box-shadow: 2px 2px 5px black;
+}
+
+.check{
+   border-radius: 10px;
+   font-family: "deja";
+}
+
+.info2{
+    height: 700px;
+    width:500px;
+   margin-top: 700px;
+   margin-right: 75px;
+    padding:50px;
+   background-color: transparent;
+   border-radius: 10px;
+   font-family: "deja";
+   font-size: 18px;
+}
+
+.info1{
+    height: 700px;
+    width:500px;
+    margin-top: 700px;
+    margin-left: 75px;
+     padding:50px;
+    background-color:transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "deja";
+    font-size: 18px;
+ }
+
+
+
+ #more {display: none;}
+
+ .butt{
+     background-color: #fbd703;
+     opacity: 0.8;
+     border-radius: 10px;
+     padding: 15px;
+     border:none;
+     margin: auto;
+
+ }
+
+
+ #options{
+     padding-top:20px;
+ }
+
+ .subbutt{
+     
+     box-shadow: 2px 2px 5px black;
+ }
+
+ .mod{
+ margin-left: 120px;
+ 
+}
+
+.form2{
+    margin-left:650px;
+}
+ 
+.labels{
+    font-family: "deja";
+    font-size: 18px;
+}
+
+li, ul{
+    font-family: "deja";
+}
+
+#howler{
+  
+    font-size: 46px;
+    font-family: "deja";
+    font-weight: bolder;
+    color: #fbd703;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 75px;
+    padding-top:150px;
+}
+
+#about, #where{
+    font-size: 28px;
+    font-family: "deja";
+    font-weight: bolder;
+    color: #fbd703;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 75px;
+
+}
+
+#test1{
+    font-size: 28px;
+    font-family: "deja";
+    font-weight: bolder;
+    color: #fbd703;
+    text-shadow: 2px 2px 5px black;
+    
+    margin-left: 875px;
+    margin-top: 100px;
+   
+
+}
+
+
+
+
+
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../pics/back.jpg");
+  
+    /* Full height */
+    height: 70%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .slide{
+      margin-top:50px;
+
+  }
+
+  form, label{
+      font-family: "deja";
+  }
+ .form-control{
+     max-width: 50%;
+ }
+
+
+
+ .checkButt{
+    background-color:#fbd703; 
+    opacity:0.8;
+    max-width: 100%;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 15px;
+ }
+

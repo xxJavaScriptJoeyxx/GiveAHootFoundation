@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="./icon.png">
+<link rel="stylesheet" href="./style/photos.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="./script/photos.js"></script>
+<title>Photos and Facts</title>
+
+</head>
+<body>
+ 
+    <div class="bg">
+       
+      <h1 class="w3-display-middle head w3-hide-small">Give a Hoot Gallery</h1>
+       
+        <h3 class="w3-display-middle head1 w3-hide-small"></h3>
+
+        <div class="w3-top ">
+       
+          <div class="w3-bar w3-white" id="myNav">
+       
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+              onclick="toggleFunction()" title="Toggle Navigation Menu"></a>
+      
+            <a href="./landing.html" target="_blank" class="w3-bar-item w3-button navtext" style="color:#fbd703;">HOME</a>
+      
+            <a href="./contact.html" target="_blank" class="w3-bar-item w3-button navtext" style="color:#fbd703;">CONTACT</a>
+       
+            <a href="./photos.html" target="_blank" class="w3-bar-item w3-button w3-hide-small navtext" style="color:#fbd703" ;>FACTS &
+              PHOTOS</a>
+       
+              <a href="./howler.html" target="_blank" class="w3-bar-item w3-button w3-hide-small navtext" style="color:#fbd703;">HOWLER</a>
+      
+      
+            </a>
+       
+          </div>
+       
+        </div>
+      
+        <!-- Navbar on small screens -->
+        <div id="navBar" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+  
+          <a href="./landing.html" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+      
+  
+          <a href="./contact.html" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      
+        </div>
+      
+
+
+
+    </div>
+
+   
+<!-- MAIN (Center website) -->
+<div class="main">
+
+  
+
+
+
+  <button class="filterbutt btns" id="myBtn" onclick="document.getElementById('myModal').style.display='block'">Watch our Videos </button>
+
+
+
+ 
+ 
+
+  <button id="facts"  type="button" onclick="document.getElementById('fact').style.display='block'">Did You Know?</button>
+
+
+
+
+
+  
+    
+    
+  <div id="myModal" class="w3-modal">
+      
+      <div class="w3-modal-content">
+    
+        <header class="w3-container modalHead" style="background-color:#fbd703; opacity: 0.8;">
+        
+          <span onclick="document.getElementById('myModal').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+        
+          <h2 class="w3-center">Featured Friends</h2>
+        
+        </header>
+        
+        <video class="vids" width="320" height="240" style="margin-left: 20px;" controls>
+        
+          <source src="./pics/owlvid3.mp4" type="video/mp4">
+          
+       
+        
+        </video>
+        
+        <video class="vids" width="320" height="240" style="margin-left: 215px;"  controls>
+        
+          <source src="./pics/owlvid.mp4" type="video/mp4">
+          
+       
+        </video>
+    
+        <footer class="w3-container w3-center modalFoot" style="padding: 20px;">
+          <a href="./photos.html">Back to Photos</a> 
+          
+        </footer>
+    
+      </div>
+
+    </div>
+
+</div>
+
+<!-- Did you know modal -->
+
+
+<div id="fact" class="w3-modal">
+  
+  <div class="w3-modal-content">
+
+    <header class="w3-container modalHead">
+    
+      <span onclick="document.getElementById('fact').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+    
+      <h2 class="w3-center">Did you Know?</h2>
+    
+    </header>
+
+    <div class="w3-container">
+      
+      
+      <ul>
+
+        <li class="info">Owls ears are asymmetrical.</li>
+
+        <br>
+
+        <li class="info">There are more than 200 species of owls. Which are placed in two categories, barn owls or other.</li>
+
+        <br>
+        
+        <li class="info">Owls cannot move their eyes. Their eyes are "tubes" which provide great depth perception for hunting. </li>
+
+
+
+        <br>
+
+        <li class="info">Owls have three eyelids, one for blinking, one for sleeping, and one for keeping their eyes clean and healthy.</li>
+        
+        <br>
+       
+        <li class="info">Barn Owls eat up to 1,000 mice a year. Farmers use tricks to attract Barn Owls to help control rodents in their fields.</li>
+       
+        <br>
+        
+        <li class="info"> Owls are carnivorous and will eat rodents, insects, fish and other birds, including other owls.</li>
+        
+        <br>
+        
+        <li class="info">Owls have zygodactyl feet with two toes pointing forward and two toes pointing backward.</li>
+        
+        <br>
+       
+        <li class="info">Femals are larger and more agressive than the males.</li>
+       
+        <br>
+       
+        <li class="info">Not all owls hoot. They make a wide range of noises such as screeches, whistles, barks and even growls.</li>
+       
+        <br>
+       
+        <li class="info">Not all owls are nocturnal. It depends on the seasonal amount of daylight.</li>
+       
+        <br>
+       
+        <li class="info">Most owls do not migrate.</li>
+       
+        <br>
+       
+        <li class="info">A group of owls is called a parliament, bazaar, wisdom or study.</li>
+        
+        <br>
+        
+        <li class="info">Baby owls are called owlets.</li>
+        
+        <br>
+
+
+
+      </ul>
+    </div>
+
+ 
+
+
+  </div>
+</div>
+
+<!-- The grid: four columns -->
+<div class="row">
+
+  <div class="column">
+
+    <img src="../pics/babybarn.jpg">
+
+    <img src="../pics/barn2.jpg">
+
+    <img src="../pics/spotted.jpg">
+
+    <img src="../pics/winky1.jpg">
+
+    <img src="../pics/oscar1.jpg">
+
+    <img src="../pics/bigyellow.jpg">
+
+    <img src="../pics/twins.jpg">
+
+  </div>
+
+  <div class="column">
+
+    <img src="../pics/barn3.jpg">
+
+    <img src="../pics/barnOwl.jpg">
+
+    <img src="../pics/wallOwls.jpg">
+
+    <img src="../pics/easternScreechOwls.jpg">
+
+    <img src="../pics/burrowingsurprise.jpg">
+
+    <img src="../pics/barnOwls.jpg">
+
+  </div>
+
+  <div class="column">
+
+    <img src="../pics/fenceOwls.jpg">
+
+    <img src="../pics/elfOwnInACactus.jpg">
+
+    <img src="../pics/flammulated.jpg">
+
+    <img src="../pics/horned.jpg">
+
+    <img src="../pics/orangeeyes.jpg">
+
+    <img src="../pics/oldguy1.jpg">
+
+    <img src="../pics/sanc4.jpg">
+
+  </div>
+
+  <div class="column">
+
+    <img src="../pics/burrowing.jpg">
+
+    <img src="../pics/comingforya.jpg">
+
+    <img src="../pics/fluff.jpg">
+
+    <img src="../pics/northernSaw-whet.jpg">
+
+    <img src="../pics/snowyOwlSideEye.jpg">
+
+    <img src="../pics/snowyOwlThinksYoureLame.jpg">
+
+  </div>
+
+</div>
+
+
+
+
+<footer class="w3-container modalFoot w3-center" style="padding: 20px;">
+   
+  <a href="./landing.html">Back to Give a Hoot Home Page</a>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

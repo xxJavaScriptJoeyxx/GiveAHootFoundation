@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>hOWLer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
+  <link rel="stylesheet" href="./style/howler.css">
+  <script src="./script/howler.js"></script>
+
+
+
+</head>
+
+<body class="w3-theme-l5">
+
+  <!-- nav-->
+
+  <div class="w3-top">
+
+    <div>
+
+
+
+      <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+
+        <img src="../pics/spotted.jpg" class="w3-circle" style="height:43px;width:43px; float: left;" alt="Avatar">
+
+
+
+
+
+
+
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white" title="News">&#127757;</a>
+
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white" title="Account Settings">&#128221;</a>
+
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white" title="Messages">&#128140;</a>
+
+
+        <div class="w3-dropdown-hover w3-hide-small">
+
+
+          <button class="w3-button w3-padding-large" title="Notifications">&#10069;<span
+              class="w3-badge w3-right w3-small w3-green">3</span></button>
+
+
+
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+
+            <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+
+            <a href="#" class="w3-bar-item w3-button">Owl Chapo posted to your wall</a>
+
+            <a href="#" class="w3-bar-item w3-button">Weird Owl Yanchovich likes your post</a>
+
+          </div>
+
+        </div>
+
+
+
+
+        <br>
+
+
+        <button onclick="document.getElementById('login').style.display='block'" class="w3-button w3-medium login"
+          style="background-color:#fbd703; color: darkgray;">Login</button>
+
+
+        
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  <!--small screen nav -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+
+  </div>
+
+
+  <div>
+    <p id="welcome" class="w3-center"> Hooty Hoo
+      <script>welcome();</script>
+    </p>
+  </div>
+  <div>
+
+    <h3 id="title">hOWLer</h3>
+
+  </div>
+
+
+
+
+
+  <!-- page container -->
+
+  <div class="w3-container w3-content page" style="max-width:1400px; padding-top:10px;">
+    <!-- grid -->
+
+    <div class="w3-row">
+      <!-- column -->
+
+      <div class="w3-col m3">
+        <!-- profile -->
+
+        <div class="w3-card w3-round w3-white">
+
+          <div class="w3-container">
+
+            <h4 class="w3-center">Owl Pacino</h4>
+
+            <p class="w3-center"><img src="../pics/spotted.jpg" class="w3-circle" style="height:206px;width:306px"
+                alt="Avatar"></p>
+
+            <hr>
+
+            <p class="w3-center">Bird of Prey</p>
+
+            <p class="w3-margin-right w3-text-theme">Lives &#127795;: Give a Hoot Sanctuary</p>
+
+            <p class="w3-margin-right w3-text-theme">Birthday <span>&#127874;</span>: I'm a Leo</p>
+
+          </div>
+
+        </div>
+
+        <br>
+
+        <!--dropdown for groups friends and events-->
+
+        <div class="w3-card w3-round">
+
+          <div class="w3-white">
+
+            <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align">&#10032; My
+
+              Groups</button>
+
+            <div id="Demo1" class="w3-hide w3-container">
+
+              <p>Late Nights, Hunting and Fishing, Forest Life</p>
+
+            </div>
+
+            <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align">&#128204; My
+
+              Events</button>
+
+            <div id="Demo2" class="w3-hide w3-container">
+
+              <p>Nocturnal Birds Convention</p>
+
+            </div>
+
+            <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align">&#129417;
+              Friends</button>
+
+            <div id="Demo3" class="w3-hide w3-container">
+
+              <div class="w3-row-padding">
+
+                <br>
+
+
+                <div class="w3-half">
+
+                  <img src="../pics/oldguy.jpg" style="width:100%" class="w3-margin-bottom">
+
+                </div>
+
+                <div class="w3-half">
+
+                  <img src="../pics/bigyellow.jpg" style="width:100%" class="w3-margin-bottom">
+
+                </div>
+
+                <div class="w3-half">
+
+                  <img src="../pics/easternScreechOwls.jpg" style="width:100%" class="w3-margin-bottom">
+
+                </div>
+
+                <div class="w3-half">
+
+                  <img src="../pics/oscar.jpg" style="width:100%" class="w3-margin-bottom">
+
+                </div>
+
+                <div class="w3-half">
+
+                  <img src="../pics/comingforya.jpg" style="width:100%" class="w3-margin-bottom">
+
+                </div>
+
+                <div class="w3-half">
+
+                  <img src="../pics/saw-whetSurprise.jpg" style="width:100%" class="w3-margin-bottom">
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <br>
+
+        <!-- interests -->
+
+        <div class="w3-card w3-round w3-white w3-hide-small">
+
+          <div class="w3-container">
+
+            <p class="w3-center">Interests</p>
+
+            <p>
+
+              <span class="w3-tag w3-small w3-theme-d5">Prey</span>
+
+              <span class="w3-tag w3-small w3-theme-d4">Staying up Late</span>
+
+              <span class="w3-tag w3-small w3-theme-d3">Flying</span>
+
+              <span class="w3-tag w3-small w3-theme-d2">Hooting</span>
+
+              <span class="w3-tag w3-small w3-theme-d1">Friends</span>
+
+              <span class="w3-tag w3-small w3-theme">Hunting</span>
+
+              <span class="w3-tag w3-small w3-theme-l1">Mating</span>
+
+              <span class="w3-tag w3-small w3-theme-l2">Building Nests</span>
+
+              <span class="w3-tag w3-small w3-theme-l3">Perching</span>
+
+
+            </p>
+
+          </div>
+
+        </div>
+
+        <br>
+
+        <!-- signup -->
+        <div
+          class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+
+          <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+            &#10006;
+          </span>
+
+          <p class="w3-center"><strong>Hoo are you?</strong></p>
+
+          <p>Want to sign in using your existing social media account?</p>
+
+          <p>Go ahead and <a href="#" onclick="document.getElementById('signup').style.display='block'"><button
+                class="w3-bar-item w3-button btns">Sign In Here</button></p>
+
+
+          <div class="w3-container">
+
+
+
+            <div id="signup" class="w3-modal">
+
+              <div class="w3-modal-content w3-animate-zoom" style="max-width:600px">
+
+                <div class="w3-center"><br>
+
+                  <h2 style="font-family:'Lobster'; font-size: 72px; color: #fbd703;">hOWLer</h2>
+                  <div class="w3-center">
+                    <br>
+                    <div class="container">
+
+
+                      <!-- <h2 id="logintext" style="text-align:center">Login with Existing Social Media Account </h2> -->
+
+                      <div class="col">
+                        <a href="#" class="fb btn" style="text-decoration:none;">
+                          Login with Facebook
+                        </a>
+                        <a href="#" class="twitter btn" style="text-decoration:none;">
+                          Login with Twitter
+                        </a>
+                        <a href="#" class="google btn" style="text-decoration:none;">
+                          Login with Google+
+                        </a>
+
+
+
+
+
+
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- left col-->
+      </div>
+
+      <!-- mid col start -->
+      <div class="w3-col m7">
+
+        <div class="w3-row-padding">
+
+          <div class="w3-col m12">
+
+            <div class="w3-card w3-round w3-white">
+
+              <div class="w3-container w3-padding">
+
+                <h6 class="w3-opacity w3-center">New Post</h6>
+
+                <input type="text" placeholder="New Post" id="new" contenteditable="true" class="w3-padding">
+
+                <button type="button" class="w3-button btns" onClick="newPost()"> Post</button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div id="hideit" class="w3-container w3-card w3-white w3-round w3-margin"><br>
+
+          <img src="../pics/spotted.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:120px; height: 90px;">
+
+          <span class="w3-right w3-opacity">Just Now</span>
+
+          <h4>Owl Pacino</h4><br>
+
+          <hr class="w3-clear">
+
+          <p id="status"></p><br>
+
+
+          <div class="w3-row-padding" style="margin:0 -16px">
+
+            <div class="w3-half">
+
+            </div>
+
+            <div class="w3-half">
+
+
+            </div>
+
+          </div>
+
+          <button type="button" class="w3-button  w3-margin-bottom btns">&#128077; Like</button>
+
+          <button type="button" class="w3-button  w3-margin-bottom btns">Comment</button>
+
+        </div>
+
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+
+          <img src="./pics/oscar1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:90px;">
+
+          <span class="w3-right w3-opacity">1 min</span>
+
+          <h4>Owlbert Einstein</h4><br>
+
+          <hr class="w3-clear">
+
+          <p>How can you tell when an owl has a sore throat?</p><br>
+
+          <p>He doesn't give a hoot &#128516;</p>
+
+          <div class="w3-row-padding" style="margin:0 -16px">
+
+
+
+            <div class="w3-container w3-padding hidehoot1">
+
+              <h6 class="w3-opacity">Owl Pacino <img src="../pics/spotted.jpg" alt="Avatar"
+                  class="w3-left w3-circle w3-margin-right hidehoot1" style="width:120px; height: 100px;"></h6>
+
+              <p id="newhoot1"></p><br>
+
+              <br>
+
+            </div>
+
+            <div class="hideafter" id="posthoot1"> <input id="hoot1" type="text"><button class="w3-button btns"
+                onClick="postHoot()" style="margin-left:5px;">Post</button>
+              <div class="w3-card w3-round w3-white"></div>
+
+            </div>
+
+            <div id="like">
+
+              <p style="color: darkgray; font-size:12px;">Owl Pacino Likes This Post</p>
+
+            </div>
+
+            <button id="shows" type="button" class="w3-button w3-margin-bottom btns">&#128077; Like</button>
+
+
+            <button id="hootbutt1" onClick="newHoot()" type="button"
+              class="w3-button w3-margin-bottom btns">Hoot</button>
+
+          </div>
+
+        </div>
+
+        <!-- SECOND POST -->
+
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+
+          <img src="./pics/oldguy1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:90px;">
+
+          <span class="w3-right w3-opacity">16 min</span>
+
+          <h4>Owl Chapo</h4><br>
+
+          <hr class="w3-clear">
+
+          <p>Where do they put the most criminal owls? </p> <br>
+
+          <p>Owlcatraz &#128513;</p>
+
+
+
+
+          <div class="w3-container w3-padding hidehoot2">
+
+            <h6 class="w3-opacity">Owl Pacino <img src="../pics/spotted.jpg" alt="Avatar"
+                class="w3-left w3-circle w3-margin-right hidehoot2" style="width:120px; height: 100px;"></h6>
+
+            <p id="newhoot2"></p><br>
+
+            <br>
+
+          </div>
+
+          <div class="hideafter2" id="posthoot2"> <input id="hoot2" type="text"><button class="w3-button btns"
+              onClick="postHoot2()" style="margin-left:5px;">Post</button>
+
+            <div class="w3-card w3-round w3-white"></div>
+
+          </div>
+
+          <div id="like2">
+
+            <p style="color: darkgray; font-size:12px;">Owl Pacino Likes This Post</p>
+
+          </div>
+
+          <button id="shows2" type="button" class="w3-button w3-margin-bottom btns">&#128077; Like</button>
+
+          <button type="button" id="hootbutt2" onClick="newHoot2()"
+            class="w3-button w3-margin-bottom btns">Hoot</button>
+
+        </div>
+
+        <!-- THIRD POST -->
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+
+          <img src="./pics/owlivia.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:90px;">
+
+          <span class="w3-right w3-opacity">32 min</span>
+
+          <h4>Owlivia Newton-John</h4><br>
+
+          <hr class="w3-clear">
+
+          <p>What kind of owls would you find at the North Pole?</p><br>
+
+          <p>Elf Owls &#128522;</p>
+
+          <img src="./pics/elfOwlDinnerDate.jpg" style="width:100%" class="w3-margin-bottom">
+
+          <div class="w3-container w3-padding hidehoot3">
+
+            <h6 class="w3-opacity">Owl Pacino <img src="../pics/spotted.jpg" alt="Avatar"
+                class="w3-left w3-circle w3-margin-right hidehoot3" style="width:120px; height: 100px;"></h6>
+
+            <p id="newhoot3"></p><br>
+
+            <br>
+
+          </div>
+
+          <div class="hideafter3" id="posthoot3"> <input id="hoot3" type="text"><button class="w3-button btns"
+              style="margin-left:5px;" onClick="postHoot3()">Post</button>
+
+            <div class="w3-card w3-round w3-white"></div>
+
+          </div>
+
+          <div id="like3">
+
+            <p style="color: darkgray; font-size:12px;">Owl Pacino Likes This Post</p>
+
+          </div>
+
+          <button id="shows3" type="button" class="w3-button  w3-margin-bottom btns">&#128077; Like</button>
+
+          <button id="hootbutt3" type="button" class="w3-button  w3-margin-bottom btns"
+            onClick="newHoot3()">Hoot</button>
+
+        </div>
+
+        <!-- end of mid col -->
+      </div>
+
+      <!-- right col -->
+      <div class="w3-col m2">
+
+        <div class="w3-card w3-round w3-white w3-center">
+
+          <div class="w3-container">
+
+            <p>Upcoming:</p>
+
+            <img src="./pics/saw-whetPortrait.jpg" alt="Forest" style="width:100%;">
+
+            <p><strong>OWLcoholics Anonymous Meeting</strong></p>
+
+            <p>Friday 1:AM</p>
+
+            <button class="w3-button btns" style="width: 50%; margin-bottom: 10px;">Info</button>
+
+          </div>
+
+        </div>
+
+        <br>
+
+        <div class="w3-card w3-round w3-white w3-center">
+
+          <div class="w3-container">
+
+            <p>Friend Request</p>
+
+            <img src="./pics/easternScreechOwls.jpg" alt="Avatar" style="width:50%"><br>
+
+            <span>Jessica Owlba</span>
+
+            <div class="w3-row w3-opacity">
+
+              <div class="w3-half">
+
+                <button class="w3-button w3-block w3-green w3-section" title="Accept">&#10004;</button>
+
+              </div>
+
+              <div class="w3-half">
+
+                <button class="w3-button w3-block w3-red w3-section" title="Decline">&#10006;</button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <br>
+
+
+        <div class="w3-card w3-round w3-white w3-padding-16 w3-center"
+          style="background-image: url(./pics/screech.jpg); background-size:cover;">
+
+          <p style="color:white; font-weight:bolder; font-size: 24px;">What Kind of Owl are You?</p>
+
+          <p style="color:white; font-weight: bold; font-size:18px;">Want to find out?</p>
+
+          <p style="color:white; font-weight: bold; font-size:14px;">Take our personality test today</p>
+
+          <button class="w3-button btns w3-center" style="opacity:0.9;">Start Now</button>
+
+        </div>
+
+        <br>
+
+        <div id="winner" class="w3-card w3-round  w3-padding-48 w3-center">
+
+
+          <div id="win" style="color:white">
+
+            <p style="font-size:32px; font-weight:bolder;" class="w3-spin">YOU WON!</p>
+
+            <a href="#" onClick="typeWriter2()"><button class="w3-button w3-blue"
+                style="font-size:16px; border-radius: 10px;"
+                onclick="document.getElementById('winnerbox').style.display='block'">Click to Claim</button></a>
+
+
+            <div id="winnerbox" class="w3-modal w3-padding-64 w3-hide-small">
+
+              <div class="w3-modal-content w3-hide-small">
+
+                <div id="winmodal" class="w3-container"
+                  style="background-image:url(./pics/balloons.jpg); background-size: cover;">
+
+                  <span onclick="document.getElementById('winnerbox').style.display='none'"
+                    class="w3-button w3-display-topright">x</span>
+                  <!-- <button id="winbutt" class="w3-button w3-teal">One More Time</button> -->
+
+                  <p id="winchat" style="font-size:22px; font-weight:bolder; color:darkred;"></p>
+
+                  <img class="winpics" src="./pics/camera.jpg"><img class="winpics" src="./pics/cell.jpg"><img
+                    class="winpics" src="./pics/credit.jpg">
+
+
+
+
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <!-- end right col -->
+        </div>
+
+        <!-- End Grid -->
+      </div>
+
+      <!-- End Page Container -->
+    </div>
+
+    <br>
+
+
+
+    <footer id="foot" class="w3-container">
+      <p>Powered by <a href="index.html" target="_blank">The Give a Hoot Foundation</a></p>
+
+
+
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <!-- import bootstrap scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!-- import D3.js -->
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="./script/howler.js"></script>
+
+
+
+</body>
+
+</html>

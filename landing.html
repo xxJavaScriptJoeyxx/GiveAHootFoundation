@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Give A Hoot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./style/landing.css">
+  <script src="./script/landing.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+
+    <div class="w3-bar w3-white" id="myNav">
+
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu"></a>
+
+
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small navtext">ABOUT</a>
+
+
+      <a href="./donate.html" target="_blank" class="w3-bar-item w3-button navtext">DONATE</a>
+
+
+      <a href="contact.html" target="_blank" class="w3-bar-item w3-button w3-hide-small navtext">CONTACT</a>
+
+      <a href="./photos.html" target="_blank" class="w3-bar-item w3-button w3-hide-small navtext">FACTS & PHOTOS</a>
+
+      <a href="./howler.html" target="_blank" class="w3-bar-item w3-button  navtext">HOWLER</a>
+
+
+
+      </a>
+
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navBar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+
+      <a href="./donate.html" class="w3-bar-item w3-button" onclick="toggleFunction()">DONATE</a>
+
+      <a href="./contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+
+
+    </div>
+
+  </div>
+
+  <!-- First Parallax w/Animation -->
+  <div class="bgimg-1 w3-display-container w3-hide-small" id="home">
+
+
+    <div id="give" class="give w3-container w3-display-middle">GIVE</div>
+
+    <div id="a" class="a w3-container w3-display-middle">A</div>
+
+    <div id="hoot" class="hoot w3-container w3-display-middle">HOOT</div>
+
+
+  </div>
+
+
+
+
+
+  
+
+  <!-- Container (Mission Statement) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+
+    <h3 id="mission" class="w3-center">Our Mission?</h3>
+
+    <p class="w3-center" style="color:#e24b06; font-weight:bolder;">Owls. We Care About Them.</p>
+
+    <p class="missionstate">We want to save as many as we can. Over time due to land development and environmental
+      changes, owls have been running out of land and some of the species
+      have even become endangered. Here at Give a Hoot we want to help. A hardworking and dedicated team of owl lovers,
+      we come together everyday to rescue sick, injured or displaced birds.
+      Whether they get released back into their natural habitat or find a forever home here with us, donations and
+      partnerships make it possible for Give a Hoot to ensure these owls
+      get the care they need to live longer and happier lives.</p>
+  </div>
+
+
+  <!-- Second Parallax -->
+  <div class="bgimg-2 w3-display-container">
+
+    <div class="w3-display-middle">
+
+      <span class="helptext">HELP SAVE AN OWL TODAY</span>
+
+    </div>
+ 
+  </div>
+
+  <!-- Container (Help Section) -->
+  <div class="w3-content w3-container w3-padding-16" id="donate">
+    
+    <h3 class="w3-center"
+      style="color:#fbd703; font-weight: bold; text-shadow:1px 1px 1px darkslategray; font-size: 32px">HOW CAN YOU MAKE
+      A DIFFERENCE?</h3>
+
+    <p class="w3-center missionstate">Help us help them. Your donation can help save an owl or many. Visit our safe
+      secure donation page and make your contribution today.</p>
+
+    <p class="w3-center missionstate">Give a HOOT <a href="./donate.html" target="_blank" style="color:#e24b06;">here</a>
+    
+    </p>
+
+    <p class="w3-center missionstate">What we've done so far?</p>
+    
+    <button id="statbutt" class="w3-button w3-hide-small"
+      onclick="document.getElementById('stats').style.display='block'">Saved to Date</button>
+
+
+    <p class="missionstate w3-center">Your contribution will go towards helping take care of both sick and injured owls
+      and getting them back into the wild
+      and help us here at the sanctuary for the everyday needs of our friends. Food, shelter, medical care are all vital
+      to the health and happiness of these amazing creatures.
+    </p>
+
+    <!-- Responsive Grid. F -->
+    <div class="w3-row-padding w3-center">
+    
+      <div class="w3-col m3">
+    
+        <img src="../pics/barn1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Suzy">
+    
+      </div>
+
+      <div class="w3-col m3">
+    
+        <img src="../pics/barn2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Larry">
+    
+      </div>
+
+      <div class="w3-col m3">
+    
+        <img src="../pics/barn3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Harold">
+    
+      </div>
+
+      <div class="w3-col m3">
+    
+        <img src="../pics/bigyellow.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Frankie">
+    
+        </div>
+    
+      </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+    
+      <div class="w3-col m3">
+    
+        <img src="../pics/crazyeyes.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Hank">
+    
+      </div>
+
+      <div class="w3-col m3">
+    
+        <img src="../pics/easternScreechOwls.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Love Birds">
+    
+        </div>
+
+      <div class="w3-col m3">
+    
+        <img src="../pics/fluff.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Eddie">
+    
+      </div>
+
+      <div class="w3-col m3">
+    
+        <img src="../pics/orangeeyes.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sal">
+    
+      </div>
+    
+      <br>
+
+
+    </div>
+
+  </div>
+
+  <div id="mainPic" class="w3-modal w3-black" onclick="this.style.display='none'">
+
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image">
+
+    </span>
+
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-16">
+
+      <img id="modPic" class="w3-image">
+
+      <p id="caption" class="w3-opacity w3-large"></p>
+
+    </div>
+
+  </div>
+
+
+
+  <div id="stats" class="w3-modal mod w3-hide-small">
+
+    <div class="modal-content">
+    
+      <span onclick="document.getElementById('stats').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+
+      <p class="stats w3-center">As of
+    
+        <script>todaysdate();</script>
+    
+      </p>
+      <!-- card 1 -->
+      <div class="row">
+    
+        <div class="column">
+    
+          <div class="card">
+    
+            <p></p>
+    
+            <h3 class="cardstyle">144</h3>
+    
+            <p class="cardpara">Healed & Released</p>
+    
+          </div>
+    
+        </div>
+        <!-- card 2 -->
+        <div class="column">
+    
+          <div class="card1">
+    
+            <p></p>
+    
+            <h3 class="cardstyle">55</h3>
+    
+            <p class="cardpara">Relocated</p>
+    
+          </div>
+    
+        </div>
+        <!-- card 3 -->
+        <div class="column">
+    
+          <div class="card2">
+    
+            <p></p>
+    
+            <h3 class="cardstyle">23</h3>
+    
+            <p class="cardpara">Here with Us</p>
+    
+          </div>
+    
+        </div>
+
+
+      </div>
+    
+    </div>
+  
+  </div>
+
+
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+
+    <div class="w3-display-topmiddle">
+
+      <span class="visit">Visit
+        Our Social Media Site</span>
+
+      <a class="w3-center w3-display-middle social" href="howler.html" target="_blank"> hOWLer</a>
+
+
+
+
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+  <footer id="foot" class="w3-center w3-padding-16 w3-white">
+
+    <div class="w3-small w3-section">
+
+      <img class="socicon" src="./pics/facebook1.png">
+
+      <img class="socicon" src="./pics/twitter.png">
+
+      <img class="socicon" src="./pics/insta.png">
+
+      <img class="socicon" src="./pics/phone1.png">
+
+      <a href="#" onclick="document.getElementById('live').style.display='block'"><img class="socicon"
+          src="./pics/chat.png"></a>
+
+      <img class="socicon" src="./pics/snailmail1.png">
+
+    </div>
+
+    <!-- live chat -->
+
+    <div id="live" class="w3-modal w3-animate-zoom w3-display-middle chatty"
+      style="width:fit-content; height:fit-content;">
+
+      <div class="w3-modal-content" style="width:fit-content; height: fit-content;">
+
+        <div class="w3-container">
+
+          <span onclick="document.getElementById('live').style.display='none'"
+            class="w3-button w3-display-topright">&#10006;</span>
+
+          <div class="chat-popup" id="myForm">
+
+            <form action="/action_page.php" class="form-container">
+
+              <h1 style="color:#e24b06; font-weight:bolder;">GIVE A HOOT</h1>
+
+              <label for="msg" style="color:#e24b06; padding: 85px; font-size: 16px; font-weight:bolder;"><b>LIVE
+                  CHAT</b></label>
+
+              <textarea id="livechat" placeholder="Press Start Chat" name="msg"
+                style="border: 2px solid black; font-family:'Arial Narrow'; font-size: 18px;">Hoot Foundation:</textarea>
+
+              <button type="button" class="btn" onclick="typeWriter()">Start Chat</button>
+
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <p>Powered by The <a href="#" title="HOME" target="_blank" class="w3-hover-text-orange">Give a Hoot
+        Foundation</a></p>
+
+  </footer>
+
+
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <!-- import bootstrap scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!-- import D3.js -->
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="./script/landing.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

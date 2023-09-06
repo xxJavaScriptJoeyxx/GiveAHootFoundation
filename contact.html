@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About Give a Hoot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./style/contact.css">
+  <script src="./script/contact.js"></script>
+ 
+  
+</head>
+
+<body>
+
+  <!-- Sidebar with image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  
+    <div class="bgimg"></div>
+  
+  </nav>
+
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+    id="mySidebar">
+  
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+      style="padding:0 12px;">
+  
+    </a>
+
+  
+  </nav>
+
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large content" style="margin-left:40%">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-animate-top" id="home">
+  
+      <h1 id="center" class="w3-jumbo"><b>About The Foundation</b></h1>
+  
+    </header>
+  
+    <br>
+  
+    <div class="w3-container w3-animate-right">
+  
+      <h4 class="team">Amanda Fields</h4>
+  
+      <h6 class="title">Veterinarian/Co-Founder</h6>
+  
+      <p>Known as the Owl Whisperer. Dr. Amanda Fields is a leading veterinarian specializing in WORD FOR BIRD
+        STUDIES.
+        Co-Founder at Give a Hoot and primary caregiver of our feathered friends, she has worked with owls for over
+        a
+        decade and dedicates her time to helping sick, injured or displaced owls getting them healthy again and
+        ready to
+        be released back into their natural habitat. Her daily activities include caring for our birds that live
+        on-site
+        ensuring they are living a happy life here with us at Give a Hoot.</p>
+      <br>
+
+      <div>
+  
+        <h4 class="team">Genise Butler</h4>
+  
+        <h6 class="title">CEO/Co-Founder</h6>
+  
+        <p>The brains of the operation. Co-Founder and CEO of The Give a Hoot Foundation, Genise uses her knowledge and
+          years of business management experience to navigate and spread our mission across the country. Behind the
+          scenes
+          is where the magic happens and her networking and determination makes it possible for our organization to
+          thrive. She uses her skills and education daily to drive our foundation forward towards our goal. Genise
+          loves
+          to visit the sanctuary and enjoys learning as much as she can about the birds for Dr. Fields.</p>
+  
+          <br>
+  
+        </div>
+
+      <div>
+
+
+  
+        <h4 class="team">Josephine Matteucci</h4>
+  
+        <h6 class="title">Director/Co-Founder</h6>
+  
+        <p>Owl enthusiast. Co-Founder and Director at Give a Hoot she uses her love of these birds to motivate her to
+          get
+          things done. She has loved owls since she was a little girl and turned that love into a mission to save
+          them.
+          Her role in the organization includes fundraising, networking, educating other on owls and what we can all
+          do to
+          help them. She loves spending time with the owls in our on-site forever home and finds the work both
+          educational
+          and rewarding </p>
+  
+          <br>
+  
+        </div>
+
+      <div>
+  
+        <h4 class="team">Marlow Ross</h4>
+  
+        <h6 class="title">Public Relations/Co-Founder</h6>
+  
+        <p>Truly gives a hoot. Co-Founder and head of Public Relations Marlow's role plays a huge part in our
+          organizations
+          partnerships. She puts a face to our name and meets with land owners, companies and others who are
+          interested in
+          helping us help owls. Using social media and any other available outlet she utilizes every resource to
+          spread
+          our message across the country.
+  
+        </p>
+  
+      </div>
+
+      <hr class="w3-opacity">
+
+      <h2 class="con w3-content w3-text-grey w3-center"><b>Hours of Operation</b></h2>
+
+      <div class="w3-row w3-content w3-text-black">
+  
+        <div class="w3-col s6 w3-center">
+  
+          <p>Monday & Tuesday CLOSED</p>
+  
+          <p>Wednesday 10.00 - 24.00</p>
+  
+          <p>Thursday 10:00 - 24:00</p>
+  
+        </div>
+  
+        <div class="w3-col s6">
+  
+          <p>Friday 10:00 - 12:00</p>
+  
+          <p>Saturday 10:00 - 23:00</p>
+  
+          <p>Sunday CLOSED</p>
+  
+        </div>
+  
+      </div>
+
+      <hr class="w3-opacity">
+
+      <h2 class="con w3-content w3-text-grey w3-center"><b>Newsletter</b></h2>
+
+   
+      <p class="w3-content w3-center">Join our Give a Hoot Foundation mailing list to receive updates.</p>
+  
+      <p class="w3-center"><button class="w3-button w3-center"
+          onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></p>
+
+      <hr>
+  
+      <div id="subscribe" class="w3-modal">
+  
+        <div class="w3-modal-content w3-animate-zoom w3-padding-large">
+  
+          <div class="w3-container w3-white w3-center">
+  
+            <i onclick="document.getElementById('subscribe').style.display='none'"
+              class="w3-button w3-xlarge w3-right w3-transparent"></i>
+  
+              <h2 class="w3-wide"></h2>
+  
+              <p>Give A Hoot Foundation Newsletter.</p>
+  
+              <form action="./landing.html">
+  
+                <p><input id="email1" class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p><br>
+  
+                <button id="subscribe" type="submit" class="w3-button w3-padding-large w3-margin-bottom w3-center"
+              onClick="news()">SUBSCRIBE</button>
+  
+            </form>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+      <!-- onclick="document.getElementById('subscribe').style.display='none'" -->
+      <!-- Contact Section -->
+  
+      <h2 class="con w3-content w3-center"><b>Contact US</b></h2>
+
+  
+      <div class="w3-section w3-center">
+  
+        <p>P.O. Box 3700</p>
+  
+        <p>Tolleson, AZ 85358</p>
+  
+        <p>Phone: 1(800) Owl-Heal</p>
+  
+        <p>Email: giveahoot@hootie-hoo.com</p>
+        <!-- </div> -->
+
+        <!-- Image of location/map -->
+  
+        <p>Lets get in touch. Send us a message:</p>
+  
+        <form action="./landing.html" target="_blank">
+  
+          <p><input id="firstLast" class="w3-input w3-padding-16 w3-border" type="text" placeholder="First and Last Name" required name="Name"></p>
+  
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+  
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject">
+  
+          </p>
+  
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message">
+  
+          </p>
+  
+          <p>
+  
+            <button onclick="contactUs()" class="w3-button" type="submit">SEND MESSAGE</button>
+  
+          </p>
+  
+        </form>
+        <!-- End Contact Section -->
+  
+      </div>
+  
+    </div>
+  
+  </div>
+
+
+
+
+
+  <!-- Footer -->
+  
+  <footer id="bottom" class="w3-container w3-padding-2 w3-center w3-black w3-xlarge" style="margin:-14px;">
+
+    <div class="w3-container">
+  
+      <p class="w3-medium" style="margin-left:775px!important; font-family:dejavu Sans !important;color: #fbd703;">Give
+        a Hoot Foundation<br>
+  
+        <a href="#">To the top</a> 
+  
+        <br>
+  
+        <a href="landing.html">Back Home</a>
+  
+      </p>
+  
+    </div>
+  
+  </footer>
+
+  <!-- END PAGE CONTENT -->
+  </div>
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+<!-- import bootstrap scripts -->
+<script src="js/bootstrap.bundle.js"></script>
+<!-- import D3.js -->
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+ 
+    <!-- // Open and close sidebar
+    // function openNav() {
+    //   document.getElementById("mySidebar").style.width = "60%";
+    //   document.getElementById("mySidebar").style.display = "block";
+    // }
+
+    // function closeNav() {
+    //   document.getElementById("mySidebar").style.display = "none";
+    // }
+
+    //  function thanks() {
+
+    //   let firstName = $("#first").val()
+    //   alert("Thank you " + firstName + " for your submission!")
+    // } -->
+  
+
+</body>
+
+</html>

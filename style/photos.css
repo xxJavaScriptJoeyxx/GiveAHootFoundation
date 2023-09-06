@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "deja";
+  src: url(C:\WINDOWS\FONTS\DEJAVUSANSMONO.TTF)
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../pics/back.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+body, html {
+    height: 100%;
+  }
+  
+  img{
+    border-radius: 5px;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+ 
+.modalHead{
+  background-color:#fbd703; 
+  opacity: 0.8;
+}
+.modalFoot{
+  background-color:#fbd703; 
+  opacity: 0.8;
+  padding: 16px;
+  
+}
+
+
+  
+
+
+  .main{
+      padding-top: 80px;
+  }
+
+  .head{
+    position: relative;
+    bottom: -125px;
+      padding-bottom: 50px;
+      color:#fbd703;
+      font-size: 5vw;
+      font-weight:bolder;
+      text-shadow: 2px 2px 2px black;
+  }
+
+  .head1{
+   position: relative;
+   bottom: 50px;
+    /* color:; */
+    font-size: 32px;
+    font-weight:bolder;
+}
+
+
+.navtext {
+    color: #fbd703;
+    font-weight: bolder;
+    font-size: 32px;
+
+    text-shadow: 2px 2px 5px black;
+}
+
+.filterbutt{
+  background-color: #fbd703;
+  opacity: 0.8;
+  color: black;
+  margin-left: 25px;
+  padding: 10px; 
+  margin-bottom: 15px;
+  border-radius: 10px;
+  float: left;
+  border:none; 
+  font-family: "deja";
+  font-weight: bolder;
+}
+
+#facts{
+  background-color:#fbd703;
+   opacity:0.8; 
+   border:none; 
+   padding: 10px; 
+   float:right;
+   margin-right: 25px; 
+   border-radius: 10px;
+   color: black;
+   font-family: "deja";
+   font-weight: bolder;
+   
+}
+
+#facts:hover{
+  background-color: white;
+}
+.filterbutt:hover{
+  background-color: white;
+}
+
+.info{
+  font-family: "deja";
+  font-size: 22px;
+  text-shadow: 1px 1px 1px darkgray;
+}
+

@@ -1,0 +1,81 @@
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../pics/flyingSnowyOwl.jpeg);
+  min-height: 100%;
+}
+
+@font-face {
+  font-family: "deja";
+  src: url(C:\WINDOWS\FONTS\DEJAVUSANSMONO.TTF)
+}
+
+
+body {
+  font-family: "deja";
+}
+
+#home {
+  background-color: black;
+  margin: -30px;
+  padding: 50px 16px;
+  font-family: castellar !important;
+}
+
+.w3-animate-top {
+  position: relative;
+  animation: animatetop 2s;
+}
+
+.w3-animate-right {
+  margin-top: 50px;
+  position: relative;
+  animation: animateright 2s;
+}
+
+
+#center {
+  text-align: center;
+  color: #fbd703;
+  text-shadow: 5px -1px 2px gray;
+  font-family: castellar;
+  font-size: 25px;
+}
+
+.team {
+  font-family: "deja";
+  line-height: 5px;
+  font-size: 25px;
+}
+
+.title {
+  font-family: "deja";
+  font-size: 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 3px solid #eee;
+  margin: 20px 0;
+}
+.con{
+  color: #fbd703 !important;
+  text-shadow: 3px -1px 2px gray !important;
+  font-family: castellar;
+}
+
+.w3-button {
+  color: gray;
+  background-color: #fbd703;
+  border-radius: 12px;
+}
+
+.w3-address {
+  text-align: center;
+}
+
+.w3-container {
+  margin: 40px;
+
+}
